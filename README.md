@@ -10,21 +10,22 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 My Blog App ](#-my-blog-app-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -118,6 +119,12 @@ To run the project, execute the following commands in your Ruby terminal:
 
 - GitHub: [@sebalp100](https://github.com/sebalp100)
 - LinkedIn: [Sebastian Martin](https://www.linkedin.com/in/sebastian-martin-956b2724a/)
+
+👤 **Enoque Jonas**
+
+- GitHub: [@enoqueJonas](https://github.com/enoqueJonas)
+- Twitter: [@enoque_jonas](https://twitter.com/_enoqueJonas)
+- LinkedIn: [@Enoque Macanda](https://www.linkedin.com/mwlite/in/enoque-macanda) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

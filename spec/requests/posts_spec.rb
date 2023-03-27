@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Posts', type: :request do
-describe 'GET #index' do
+  describe 'GET #index' do
     let(:user) { FactoryBot.create(:user) }
     before(:example) { get user_posts_path(user.id) } # get(:index)
     it 'is a success' do

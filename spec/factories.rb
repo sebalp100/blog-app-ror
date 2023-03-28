@@ -1,6 +1,5 @@
 FactoryBot.define do
   factory :user do
-    sequence(:email) { |n| "user#{n}@example.com" }
     name { 'Jane' }
     photo { 'https://unsplash.com/photos/F_-0BxGuVvo' }
     post_counter { 0 }

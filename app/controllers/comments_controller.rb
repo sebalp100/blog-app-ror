@@ -22,6 +22,15 @@ class CommentsController < ApplicationController
   end
 
   def destroy
+    @comment = Comment.find(params[:id])
+    @post = @comment.post
+    @comment.destroy
+    @post.update(comments_counter: @post.comments_counter - 1)
+
+    respond_to do |format|
+      format.html { redirect_to root_path, notice: 'Comment was successfully destroyed.' }
+      format.json { head :no_content }
+    end
   end
 
   private

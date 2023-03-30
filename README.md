@@ -124,19 +124,13 @@ To run the project, execute the following commands in your Ruby terminal:
 
 - GitHub: [@enoqueJonas](https://github.com/enoqueJonas)
 - Twitter: [@enoque_jonas](https://twitter.com/_enoqueJonas)
-- LinkedIn: [@Enoque Macanda](https://www.linkedin.com/mwlite/in/enoque-macanda) 
+- LinkedIn: [@Enoque Macanda](https://www.linkedin.com/mwlite/in/enoque-macanda)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- Project 8: Add Devise.
-
-- Project 9: Add authorization rules.
-
-- Project 10: Integration specs for Views.
 
 - Project 11: Add API endpoints.
 

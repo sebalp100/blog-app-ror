@@ -8,7 +8,7 @@
 <div class='comments'>
   <% @post.comments.each do |comment| %>
     <p><%= comment.author.name %>: <%= comment.text %></p>
-    <% if comment.author == current_user || @post.author == current_user %>
+    <% if @post.author == current_user %>
       <%= form_for([@user, @post, comment], method: :delete) do |f| %>
         <%= f.submit 'Delete' %>
       <% end %>
@@ -16,15 +16,19 @@
   <% end %>
 </div>
 
+<div class='buttons-container'>
 <%= form_with url: likes_user_post_path(@user, @post), method: :post do |form| %>
-  <%= form.submit "Like" %>
+  <%= form.submit "Like", class: "form-button like-button" %>
 <% end %>
+
+<%= link_to "Comment", new_user_post_comment_path(@post.author, @post), class: "form-button" %>
 
 <% if @post.author == current_user %>
   <%= form_with url: user_post_path(@user, @post), method: :delete do |form| %>
-    <%= form.submit "Delete" %>
+    <%= form.submit "Delete", class: "form-button" %>
   <% end %>
 <% end %>
+</div>
 </div>
 
 

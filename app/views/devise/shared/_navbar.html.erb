@@ -1,12 +1,14 @@
-<nav>
-  <ul>
-    <% if user_signed_in? %>
-      <% if current_user.photo.attached? %>
-        <image src="<%= (url_for(current_user.photo))%>">
-      <% end %>
+<% if user_signed_in? %>
+  <nav>
+  <div class='image-div'>
+    <% if current_user.photo.attached? %>
+      <image src="<%= (url_for(current_user.photo))%>" class="nav-image">
+    <% end %>
+  </div>
+    <ul>
       <li><%= link_to 'Home', users_path %></li>
       <li><%= link_to 'Posts', user_posts_path(current_user) %></li>
       <%= button_to "Logout", destroy_user_session_path, method: :delete %>
-    <% end %>
-  </ul>
-</nav>
+    </ul>
+  </nav>
+<% end %>

@@ -131,3 +131,7 @@
   display: flex;
   gap: 20px;
 }
+
+.delete-button {
+  background-color: rgb(226, 226, 23);
+}

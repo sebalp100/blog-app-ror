@@ -87,3 +87,7 @@ group :test do
 end
 
 gem 'active_model_serializers', '~> 0.10.13'
+
+gem "dockerfile-rails", ">= 1.2", :group => :development
+
+gem "redis", "~> 5.0"

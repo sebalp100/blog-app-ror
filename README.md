@@ -103,6 +103,8 @@ To run the project, execute the following commands in your Ruby terminal:
 
 `bundle install` to install all gems used.
 
+`npm install` to install all dependencies.
+
 `rails db:create` to create the database.
 
 `rails db:migrate` to run the database migrations you created.

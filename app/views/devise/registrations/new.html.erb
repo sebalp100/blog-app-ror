@@ -26,9 +26,18 @@
     <%= f.text_field :name %>
   </div>
 
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+<% if flash[:notice] %>
+  <%= flash[:notice] %>
+<% end %>

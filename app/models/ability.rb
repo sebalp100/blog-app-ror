@@ -8,7 +8,9 @@ class Ability
       can :manage, :all
     else
       can :manage, Post, author_id: user.id
-      can :manage, Comment, author_id: user.id
+      can :create, Comment
+      can :destroy, Comment, author_id: user.id
+      can :manage, :all
       can :read, :all
     end
     # Define a few sample abilities

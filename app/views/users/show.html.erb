@@ -1,9 +1,11 @@
 <div class='user-main'>
-<img class='user-photo' src="<%= @user.photo %>" alt="User photo">
+<% if @user.photo.attached? %>
+  <img class='user-photo' src="<%= url_for(@user.photo) %>">
+<% end %>
 
 <div class='user-container'>
 <h1><%= @user.name %></h1>
-<p class='post-counter'>Number of posts: <%=@user.post_counter%></p>
+<p class='post-counter'>Number of posts: <%= @user.post_counter.to_i.presence || 0 %></p>
 </div>
 </div>
 

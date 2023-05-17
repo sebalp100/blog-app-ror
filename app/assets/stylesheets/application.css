@@ -11,3 +11,13 @@ body {
   padding: 30px 0;
   gap: 30px;
 }
+
+img {
+  width: 60px;
+  height: auto;
+}
+
+.user-photo {
+  width: 100px;
+  height: auto;
+}

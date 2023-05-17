@@ -1,4 +1,13 @@
 <% @users.each do |user| %>
-  <div class='user-main'><img class='user-photo' src="<%= user.photo %>" alt="User photo"> <div class='user-container'><p><%= link_to user.name, user %></p> <p class='post-counter'>Number of posts: <%=user.post_counter%></p></div></div>
+  <div class='user-main'>
+    <% if user.photo.attached? %>
+      <image class='user-photo' src="<%= (url_for(user.photo))%>">
+    <% end %>
+    <div class='user-container'>
+      <p><%= link_to user.name, user %></p>
+      <p class='post-counter'>Number of posts: <%= user.post_counter.to_i.presence || 0 %></p>
+    </div>
+  </div>
 <% end %>
+
 

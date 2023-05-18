@@ -71,7 +71,7 @@ Simple blog app made in Rails that will show the list of posts and empower reade
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Not available yet
+[Link](https://rails-production-245a.up.railway.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
